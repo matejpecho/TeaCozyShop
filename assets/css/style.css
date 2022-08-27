@@ -1,0 +1,85 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+/* NAVIGATION SECTION */
+#main-navigation {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+}
+
+#main-navigation > img {
+    margin-left: 10px;
+    height: 50px;
+    
+}
+
+.navbar > .navbar-item {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbar > .navbar-item > a{
+    color: seashell;
+}
+
+/* HEADER SECTION - OUR MISSION */
+header {
+    background-image: url(../img/img-mission-background.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.headings {
+    opacity: 1;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+h2 {
+    margin: 10px;
+}
+h4 {
+    margin: 0px;
+}
+
+/* BODY SECTION - TEA OF THE MONTH */
+
+.products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product-item {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.product-item > img {
+    margin: 15px 15px 0 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.product-item-desc {
+    margin-top: 10px;
+}
