@@ -20,25 +20,22 @@ body {
     background-color: black;
     border-bottom: 1px solid seashell;
 }
-
 #main-navigation > img {
     margin-left: 10px;
     height: 50px;
     
 }
-
 .navbar > .navbar-item {
     display: inline-block;
     margin-right: 10px;
 }
-
 .navbar > .navbar-item > a{
     color: seashell;
 }
 
-/* HEADER SECTION - OUR MISSION */
+/* HEADER SECTION -  */
 header {
-    background-image: url(../img/img-mission-background.jpeg) ;
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     height: 700px;
@@ -53,6 +50,9 @@ header {
     text-align: center;
     background-color: black;
 }
+h1 {
+    margin: 0;
+}
 
 h2 {
     margin: 10px;
@@ -61,7 +61,7 @@ h4 {
     margin: 0px;
 }
 
-/* BODY SECTION - TEA OF THE MONTH */
+/* BODY SECTION -  */
 
 .products {
     width: 100%;
@@ -79,7 +79,48 @@ h4 {
     width: 300px;
     height: 200px;
 }
-
 .product-item-desc {
     margin-top: 10px;
+}
+
+/* FOOTER SECTION */
+#contact {
+    margin-top: 50px;
+
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    width: 100%;
+    min-height: 500px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.location-card > span {
+    display: block;
+    margin: 25px;
+}
+.location-card {
+    word-wrap: unset;
+    text-align: center;
+    opacity: 1;
+    min-width: 320px;
+    background-color: black;
+    margin: 15px 20px 5px 20px;
+}
+footer {
+    height: 200px;
+    text-align: center;
+}
+.copyright {
+    margin-left: 20px;
+    float: left;
 }
